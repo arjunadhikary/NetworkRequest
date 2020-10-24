@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tvfree"
+        android:title="Free Apps" />
+    <item
+        android:id="@+id/vpaid"
+        android:title="Paid Apps" />
+    <item
+        android:id="@+id/tvsongs"
+        android:title="Top Songs" />
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/tp10"
+            android:checked="true"
+            android:title="Top 10" />
+        <item
+            android:id="@+id/tp25"
+            android:title="Top 25" />
+    </group>
+</menu>
